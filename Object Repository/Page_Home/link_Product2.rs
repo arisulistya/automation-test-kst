@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>link_Product2</name>
+   <tag></tag>
+   <elementGuidId>5dab581f-49cb-408e-aa27-16fbb455c8a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.noo-product-item.noo-product-sm-4.not_featured.post-1491.product.type-product.status-publish.has-post-thumbnail.product_cat-t-shirt.product_tag-t-shirt.product_tag-women.has-featured.instock.shipping-taxable.purchasable.product-type-variable > div.noo-product-inner.noo-product-inner2 > h3 > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='noo-site']/div[2]/div[3]/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div/h3/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3f077cfc-fe0e-4b51-ad17-33f37bc09f2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://shop.demoqa.com/product/playboy-x-missguided-plus-size-grey-lips-print-front-cropped-t-shirt/</value>
+      <webElementGuid>9070057d-955d-4ee6-8266-7a33098b87b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>playboy x missguided plus size grey lips print front cropped t shirt</value>
+      <webElementGuid>60bbe027-5fcd-4b65-9518-f5028021eac2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;noo-site&quot;)/div[@class=&quot;page_fullwidth&quot;]/div[@class=&quot;noo-container-fluid&quot;]/div[@class=&quot;vc_row wpb_row vc_row-fluid vc_custom_1465285769156&quot;]/div[@class=&quot;padding-stylebox wpb_column vc_column_container vc_col-sm-12 vc_col-lg-7 vc_col-md-7 vc_hidden-sm&quot;]/div[@class=&quot;vc_column-inner vc_custom_1465550709194&quot;]/div[@class=&quot;wpb_wrapper&quot;]/div[@class=&quot;noo-shortcode-product-wrap&quot;]/div[@class=&quot;noo-sh-product-grid woocommerce&quot;]/div[@class=&quot;noo-sh-product-html columns_3 no_masonry three row is-flex&quot;]/div[@class=&quot;noo-product-item noo-product-sm-4 not_featured post-1491 product type-product status-publish has-post-thumbnail product_cat-t-shirt product_tag-t-shirt product_tag-women has-featured  instock shipping-taxable purchasable product-type-variable&quot;]/div[@class=&quot;noo-product-inner noo-product-inner2&quot;]/h3[1]/a[1]</value>
+      <webElementGuid>fa75b377-53da-4012-ae55-de8ba2554179</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='noo-site']/div[2]/div[3]/div/div[2]/div/div/div/div[2]/div[2]/div[2]/div/h3/a</value>
+      <webElementGuid>852a9434-7528-4810-a7be-a10c04dc4d0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'playboy x missguided plus size grey lips print front cropped t shirt')]</value>
+      <webElementGuid>144ac7b7-df28-4ce7-9d16-91c6bb7b622c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Wishlist'])[2]/following::a[1]</value>
+      <webElementGuid>fa100509-e692-4b87-964c-adf47205f0c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Compare'])[2]/following::a[2]</value>
+      <webElementGuid>c77ed53e-d5df-4c70-b6fd-2702a9a3ec3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹'])[3]/preceding::a[1]</value>
+      <webElementGuid>07771f36-58b3-42e7-9fd8-926464e1979d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='playboy x missguided plus size grey lips print front cropped t shirt']/parent::*</value>
+      <webElementGuid>9a8a44a0-bc3a-4531-aa2b-29ee31388d08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://shop.demoqa.com/product/playboy-x-missguided-plus-size-grey-lips-print-front-cropped-t-shirt/')])[2]</value>
+      <webElementGuid>86d5bed1-e6c1-4754-9547-e7ca09465e80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/h3/a</value>
+      <webElementGuid>92140561-5163-4ca2-908e-fbd62a506f38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://shop.demoqa.com/product/playboy-x-missguided-plus-size-grey-lips-print-front-cropped-t-shirt/' and (text() = 'playboy x missguided plus size grey lips print front cropped t shirt' or . = 'playboy x missguided plus size grey lips print front cropped t shirt')]</value>
+      <webElementGuid>7838a034-0a91-44dc-a97f-4f54b56656f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

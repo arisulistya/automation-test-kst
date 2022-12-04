@@ -1,2 +1,2 @@
-# automation-test-kst
-test script
+# automation-QA-Test-KST
+Test script
