@@ -35,6 +35,7 @@ import org.apache.commons.lang.RandomStringUtils as RandomStringUtils
  * - N/A
  *------------------------------------------------------------------------------------------------*/
 
+
 /*------------------------------------------------------------------------------------------------
  * TEST DATA
  *------------------------------------------------------------------------------------------------*/
@@ -109,6 +110,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Checkout/input_FirstName'),
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Checkout/input_LastName'), GlobalVariable.DelayShort)
 WebUI.setText(findTestObject('Object Repository/Page_Checkout/input_LastName'), lastName, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Checkout/input_Agrement'), GlobalVariable.DelayShort)
+WebUI.click(findTestObject('Object Repository/Page_Checkout/input_Agrement'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Checkout/input_CompanyName'), GlobalVariable.DelayShort)
 WebUI.setText(findTestObject('Object Repository/Page_Checkout/input_CompanyName'), companyName, FailureHandling.STOP_ON_FAILURE)
 
@@ -135,7 +139,7 @@ WebUI.setText(findTestObject('Object Repository/Page_Checkout/input_Phone'), pho
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Checkout/input_Email'), GlobalVariable.DelayShort)
 WebUI.setText(findTestObject('Object Repository/Page_Checkout/input_Email'), email, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Checkout/input_Agrement'), FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_Checkout/button_PlaceOrder'), GlobalVariable.DelayShort)
 WebUI.click(findTestObject('Object Repository/Page_Checkout/button_PlaceOrder'), FailureHandling.STOP_ON_FAILURE)
 
 

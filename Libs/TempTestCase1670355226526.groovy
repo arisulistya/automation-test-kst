@@ -18,7 +18,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('/var/folders/6r/61jvtgqj73dbwc8tr02rqpqc0000gn/T/Katalon/Test Cases/Order Product (OPD)/OPD0001 - Success order single product/20221207_030452/execution.properties')
+RunConfiguration.setExecutionSettingFile('/var/folders/6r/61jvtgqj73dbwc8tr02rqpqc0000gn/T/Katalon/Test Cases/Order Product (OPD)/OPD0001 - Success order single product/20221207_033346/execution.properties')
 
 TestCaseMain.beforeStart()
 

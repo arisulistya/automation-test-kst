@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Order single product,Chrome 107.0.0.0,,,2022-12-07 03:36:58,2022-12-07 03:38:02,1m - 3.974s,PASSED
+,,,,,,,
+Test Cases/Order Product (OPD)/OPD0001 - Success order single product,Chrome 107.0.0.0,,,2022-12-07 03:36:58,2022-12-07 03:38:02,1m - 3.656s,PASSED
+"firstName = ""FirstName"" + RandomStringUtils.randomAlphabetic(3)",Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.013s,PASSED
+"lastName = ""LastName"" + RandomStringUtils.randomAlphabetic(5)",Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.002s,PASSED
+"email = firstName + ""@mailinator.com""",Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.001s,PASSED
+address1 = RandomStringUtils.randomAlphabetic(20),Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.000s,PASSED
+address2 = RandomStringUtils.randomAlphabetic(20),Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.001s,PASSED
+city = RandomStringUtils.randomAlphabetic(5),Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.001s,PASSED
+companyName = RandomStringUtils.randomAlphanumeric(5),Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.002s,PASSED
+phone = RandomStringUtils.randomNumeric(12),Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.002s,PASSED
+postCode = RandomStringUtils.randomNumeric(5),Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.005s,PASSED
+"prdName1 = ""Pink Drop""",Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:36:59,0.001s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-12-07 03:36:59,2022-12-07 03:37:02,2.836s,PASSED
+maximizeWindow(),Chrome 107.0.0.0,,,2022-12-07 03:37:02,2022-12-07 03:37:02,0.169s,PASSED
+"navigateToUrl(""https://"" + baseUrl + ""/"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:02,2022-12-07 03:37:11,8.930s,PASSED
+"verifyMatch(getUrl(), ""https://"" + baseUrl + ""/"", true, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:11,2022-12-07 03:37:11,0.092s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Home/link_Search""), DelayShort, CONTINUE_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:11,2022-12-07 03:37:12,0.704s,PASSED
+"click(findTestObject(""Object Repository/Page_Home/link_Search""))",Chrome 107.0.0.0,,,2022-12-07 03:37:12,2022-12-07 03:37:12,0.488s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Home/input_Search""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:12,2022-12-07 03:37:13,0.512s,PASSED
+"setText(findTestObject(""Object Repository/Page_Home/input_Search""), prdName1, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:13,2022-12-07 03:37:14,1.058s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Home/input_Search""), Keys.chord(ENTER))",Chrome 107.0.0.0,,,2022-12-07 03:37:14,2022-12-07 03:37:18,4.696s,PASSED
+"verifyMatch(getUrl(), ""https://"" + baseUrl + ""/product/pink-drop-shoulder-oversized-t-shirt/"", true, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:18,2022-12-07 03:37:18,0.071s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Product1/select_ColorOption""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:18,2022-12-07 03:37:19,0.411s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Page_Product1/select_ColorOption""), ""Pink"", false, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:19,2022-12-07 03:37:20,1.084s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Object Repository/Page_Product1/select_ColorOption""), ""Pink"", false, DelayShort, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:20,2022-12-07 03:37:23,2.551s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Product1/select_SizeOption""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:23,2022-12-07 03:37:23,0.537s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Page_Product1/select_SizeOption""), ""37"", false, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:23,2022-12-07 03:37:24,1.081s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Object Repository/Page_Product1/select_SizeOption""), ""37"", false, DelayShort, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:24,2022-12-07 03:37:27,2.547s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Product1/input_Qty""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:27,2022-12-07 03:37:27,0.516s,PASSED
+"setText(findTestObject(""Object Repository/Page_Product1/input_Qty""), ""2"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:27,2022-12-07 03:37:28,1.026s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Product1/button_AddtoCart""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:28,2022-12-07 03:37:29,0.530s,PASSED
+"click(findTestObject(""Object Repository/Page_Product1/button_AddtoCart""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:29,2022-12-07 03:37:31,1.905s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Page_Product1/input_Qty""), ""Value"", ""2"", DelayShort, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:31,2022-12-07 03:37:32,1.093s,PASSED
+"productName = getText(findTestObject(""Object Repository/Page_Product1/label_ProductName""))",Chrome 107.0.0.0,,,2022-12-07 03:37:32,2022-12-07 03:37:32,0.514s,PASSED
+"productPrice = getText(findTestObject(""Object Repository/Page_Product1/label_ProductPrice""))",Chrome 107.0.0.0,,,2022-12-07 03:37:32,2022-12-07 03:37:33,0.396s,PASSED
+"productColor = getAttribute(findTestObject(""Object Repository/Page_Product1/select_ColorOption""), ""value"")",Chrome 107.0.0.0,,,2022-12-07 03:37:33,2022-12-07 03:37:33,0.505s,PASSED
+"productSize = getAttribute(findTestObject(""Object Repository/Page_Product1/select_SizeOption""), ""value"")",Chrome 107.0.0.0,,,2022-12-07 03:37:33,2022-12-07 03:37:34,0.479s,PASSED
+"productQty = getAttribute(findTestObject(""Object Repository/Page_Product1/input_Qty""), ""value"")",Chrome 107.0.0.0,,,2022-12-07 03:37:34,2022-12-07 03:37:34,0.479s,PASSED
+"cpltProductName = productName + "" - "" + productColor.toUpperCase()",Chrome 107.0.0.0,,,2022-12-07 03:37:34,2022-12-07 03:37:34,0.001s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Product1/button_ViewCart""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:34,2022-12-07 03:37:35,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_Product1/button_ViewCart""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:35,2022-12-07 03:37:37,2.120s,PASSED
+"verifyMatch(getUrl(), ""https://"" + baseUrl + ""/cart/"", true, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:37,2022-12-07 03:37:37,0.035s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Cart/label_ProductNameColor""), cpltProductName, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:37,2022-12-07 03:37:37,0.526s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Cart/label_ProductPrice""), productPrice, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:37,2022-12-07 03:37:38,0.491s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Cart/label_ProductSize""), productSize, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:38,2022-12-07 03:37:38,0.488s,PASSED
+"verifyElementAttributeValue(findTestObject(""Object Repository/Page_Product1/input_Qty""), ""value"", productQty, DelayShort, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:38,2022-12-07 03:37:39,0.515s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Cart/button_Checkout""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:39,2022-12-07 03:37:39,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_Cart/button_Checkout""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:39,2022-12-07 03:37:41,1.997s,PASSED
+"verifyMatch(getUrl(), ""https://"" + baseUrl + ""/checkout/"", true, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:41,2022-12-07 03:37:41,0.097s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_FirstName""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:41,2022-12-07 03:37:42,0.844s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_FirstName""), firstName, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:42,2022-12-07 03:37:43,1.098s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_LastName""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:43,2022-12-07 03:37:44,0.315s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_LastName""), lastName, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:44,2022-12-07 03:37:45,0.987s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Checkout/input_Agrement""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:45,2022-12-07 03:37:45,0.316s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/input_Agrement""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:45,2022-12-07 03:37:45,0.409s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_CompanyName""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:45,2022-12-07 03:37:46,0.479s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_CompanyName""), companyName, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:46,2022-12-07 03:37:47,0.985s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/select_Country""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:47,2022-12-07 03:37:47,0.544s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_Country""), ""Indonesia"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:47,2022-12-07 03:37:48,1.078s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Checkout/input_Country""), Keys.chord(ENTER))",Chrome 107.0.0.0,,,2022-12-07 03:37:48,2022-12-07 03:37:49,0.568s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_Address1""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:49,2022-12-07 03:37:50,1.437s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_Address1""), address1, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:50,2022-12-07 03:37:51,1.019s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_City""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:51,2022-12-07 03:37:52,0.375s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_City""), city, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:52,2022-12-07 03:37:53,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/select_State""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:53,2022-12-07 03:37:53,0.583s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_State""), ""Bali"", STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:53,2022-12-07 03:37:54,0.990s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Checkout/input_State""), Keys.chord(ENTER))",Chrome 107.0.0.0,,,2022-12-07 03:37:54,2022-12-07 03:37:55,0.600s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_PostCode""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:55,2022-12-07 03:37:56,0.577s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_PostCode""), postCode, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:56,2022-12-07 03:37:57,1.012s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_Phone""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:37:57,2022-12-07 03:37:57,0.486s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_Phone""), phone, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:37:57,2022-12-07 03:38:00,2.543s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Checkout/input_Email""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:38:00,2022-12-07 03:38:00,0.469s,PASSED
+"setText(findTestObject(""Object Repository/Page_Checkout/input_Email""), email, STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:38:00,2022-12-07 03:38:01,1.021s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/Page_Checkout/button_PlaceOrder""), DelayShort)",Chrome 107.0.0.0,,,2022-12-07 03:38:01,2022-12-07 03:38:02,0.384s,PASSED
+"click(findTestObject(""Object Repository/Page_Checkout/button_PlaceOrder""), STOP_ON_FAILURE)",Chrome 107.0.0.0,,,2022-12-07 03:38:02,2022-12-07 03:38:02,0.537s,PASSED

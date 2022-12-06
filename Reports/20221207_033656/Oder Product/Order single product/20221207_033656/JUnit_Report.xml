@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Order single product" time="63.974" tests="1" failures="0" errors="0">
+   <testsuite name="Order single product" tests="1" failures="0" errors="0" time="63.974" skipped="0" timestamp="2022-12-07 03:36:58" hostname="ghost - localhost" id="Test Suites/Oder Product/Order single product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/ghost/git/automation-test-kst/Reports/20221207_033656/Oder Product/Order single product/20221207_033656"/>
+         <property name="logFiles" value="/Users/ghost/git/automation-test-kst/Reports/20221207_033656/Oder Product/Order single product/20221207_033656/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ghost - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.5.2.208"/>
+         <property name="browser" value="Chrome 107.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="4c1c9a6a6f20636e550d70fad1de1543"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Order Product (OPD)/OPD0001 - Success order single product" time="63.656" classname="Test Cases/Order Product (OPD)/OPD0001 - Success order single product" status="PASSED">
+         <system-out><![CDATA[2022-12-07 03:36:58 - [TEST_CASE][PASSED] - Test Cases/Order Product (OPD)/OPD0001 - Success order single product: Test Cases/Order Product (OPD)/OPD0001 - Success order single product
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - firstName = "FirstName" + RandomStringUtils.randomAlphabetic(3): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - lastName = "LastName" + RandomStringUtils.randomAlphabetic(5): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - email = firstName + "@mailinator.com": null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - address1 = RandomStringUtils.randomAlphabetic(20): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - address2 = RandomStringUtils.randomAlphabetic(20): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - city = RandomStringUtils.randomAlphabetic(5): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - companyName = RandomStringUtils.randomAlphanumeric(5): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - phone = RandomStringUtils.randomNumeric(12): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - postCode = RandomStringUtils.randomNumeric(5): null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - prdName1 = "Pink Drop": null
+
+2022-12-07 03:36:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-07 03:36:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-07 03:36:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-07 03:37:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-07 03:37:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-12-07 03:37:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-12-07 03:37:02 - [TEST_STEP][PASSED] - navigateToUrl("https://" + baseUrl + "/", STOP_ON_FAILURE): Navigate to 'https://shop.demoqa.com/' successfully
+
+2022-12-07 03:37:11 - [MESSAGE][PASSED] - Navigate to 'https://shop.demoqa.com/' successfully
+
+2022-12-07 03:37:11 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://" + baseUrl + "/", true, STOP_ON_FAILURE): Actual text 'https://shop.demoqa.com/' and expected text 'https://shop.demoqa.com/' are matched  using regular expression
+
+2022-12-07 03:37:11 - [MESSAGE][PASSED] - Current window's url is: 'https://shop.demoqa.com/'
+
+2022-12-07 03:37:11 - [MESSAGE][PASSED] - Actual text 'https://shop.demoqa.com/' and expected text 'https://shop.demoqa.com/' are matched  using regular expression
+
+2022-12-07 03:37:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Home/link_Search"), DelayShort, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Home/link_Search' is clickable
+
+2022-12-07 03:37:12 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home/link_Search' is clickable
+
+2022-12-07 03:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home/link_Search")): Object: 'Object Repository/Page_Home/link_Search' is clicked on
+
+2022-12-07 03:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home/link_Search' is clicked on
+
+2022-12-07 03:37:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Home/input_Search"), DelayShort): Object 'Object Repository/Page_Home/input_Search' is present
+
+2022-12-07 03:37:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home/input_Search' is present
+
+2022-12-07 03:37:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Home/input_Search"), prdName1, STOP_ON_FAILURE): Text 'Pink Drop' is set on object 'Object Repository/Page_Home/input_Search'
+
+2022-12-07 03:37:14 - [MESSAGE][PASSED] - Text 'Pink Drop' is set on object 'Object Repository/Page_Home/input_Search'
+
+2022-12-07 03:37:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Home/input_Search"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Home/input_Search'
+
+2022-12-07 03:37:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Home/input_Search'
+
+2022-12-07 03:37:18 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://" + baseUrl + "/product/pink-drop-shoulder-oversized-t-shirt/", true, STOP_ON_FAILURE): Actual text 'https://shop.demoqa.com/product/pink-drop-shoulder-oversized-t-shirt/' and expected text 'https://shop.demoqa.com/product/pink-drop-shoulder-oversized-t-shirt/' are matched  using regular expression
+
+2022-12-07 03:37:18 - [MESSAGE][PASSED] - Current window's url is: 'https://shop.demoqa.com/product/pink-drop-shoulder-oversized-t-shirt/'
+
+2022-12-07 03:37:18 - [MESSAGE][PASSED] - Actual text 'https://shop.demoqa.com/product/pink-drop-shoulder-oversized-t-shirt/' and expected text 'https://shop.demoqa.com/product/pink-drop-shoulder-oversized-t-shirt/' are matched  using regular expression
+
+2022-12-07 03:37:18 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Product1/select_ColorOption"), DelayShort): Object 'Object Repository/Page_Product1/select_ColorOption' is present
+
+2022-12-07 03:37:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Product1/select_ColorOption' is present
+
+2022-12-07 03:37:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Page_Product1/select_ColorOption"), "Pink", false, STOP_ON_FAILURE): All options with label 'Pink' are selected in object 'Object Repository/Page_Product1/select_ColorOption' 
+
+2022-12-07 03:37:20 - [MESSAGE][PASSED] - All options with label 'Pink' are selected in object 'Object Repository/Page_Product1/select_ColorOption' 
+
+2022-12-07 03:37:20 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Object Repository/Page_Product1/select_ColorOption"), "Pink", false, DelayShort, STOP_ON_FAILURE): All options with label 'Pink' are selected in object 'Object Repository/Page_Product1/select_ColorOption' 
+
+2022-12-07 03:37:23 - [MESSAGE][PASSED] - All options with label 'Pink' are selected in object 'Object Repository/Page_Product1/select_ColorOption' 
+
+2022-12-07 03:37:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Product1/select_SizeOption"), DelayShort): Object 'Object Repository/Page_Product1/select_SizeOption' is present
+
+2022-12-07 03:37:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Product1/select_SizeOption' is present
+
+2022-12-07 03:37:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Page_Product1/select_SizeOption"), "37", false, STOP_ON_FAILURE): All options with label '37' are selected in object 'Object Repository/Page_Product1/select_SizeOption' 
+
+2022-12-07 03:37:24 - [MESSAGE][PASSED] - All options with label '37' are selected in object 'Object Repository/Page_Product1/select_SizeOption' 
+
+2022-12-07 03:37:24 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Object Repository/Page_Product1/select_SizeOption"), "37", false, DelayShort, STOP_ON_FAILURE): All options with label '37' are selected in object 'Object Repository/Page_Product1/select_SizeOption' 
+
+2022-12-07 03:37:27 - [MESSAGE][PASSED] - All options with label '37' are selected in object 'Object Repository/Page_Product1/select_SizeOption' 
+
+2022-12-07 03:37:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Product1/input_Qty"), DelayShort): Object 'Object Repository/Page_Product1/input_Qty' is present
+
+2022-12-07 03:37:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Product1/input_Qty' is present
+
+2022-12-07 03:37:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Product1/input_Qty"), "2", STOP_ON_FAILURE): Text '2' is set on object 'Object Repository/Page_Product1/input_Qty'
+
+2022-12-07 03:37:28 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Product1/input_Qty'
+
+2022-12-07 03:37:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Product1/button_AddtoCart"), DelayShort): Object 'Object Repository/Page_Product1/button_AddtoCart' is clickable
+
+2022-12-07 03:37:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Product1/button_AddtoCart' is clickable
+
+2022-12-07 03:37:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Product1/button_AddtoCart"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Product1/button_AddtoCart' is clicked on
+
+2022-12-07 03:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product1/button_AddtoCart' is clicked on
+
+2022-12-07 03:37:31 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Page_Product1/input_Qty"), "Value", "2", DelayShort, STOP_ON_FAILURE): Object 'Object Repository/Page_Product1/input_Qty' has attribute 'Value' with value '2'
+
+2022-12-07 03:37:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Product1/input_Qty' has attribute 'Value' with value '2'
+
+2022-12-07 03:37:32 - [TEST_STEP][PASSED] - productName = getText(findTestObject("Object Repository/Page_Product1/label_ProductName")): Text of object 'Object Repository/Page_Product1/label_ProductName' is: 'PINK DROP SHOULDER OVERSIZED T SHIRT'
+
+2022-12-07 03:37:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Product1/label_ProductName' is: 'PINK DROP SHOULDER OVERSIZED T SHIRT'
+
+2022-12-07 03:37:32 - [TEST_STEP][PASSED] - productPrice = getText(findTestObject("Object Repository/Page_Product1/label_ProductPrice")): Text of object 'Object Repository/Page_Product1/label_ProductPrice' is: '₹15.00'
+
+2022-12-07 03:37:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Product1/label_ProductPrice' is: '₹15.00'
+
+2022-12-07 03:37:33 - [TEST_STEP][PASSED] - productColor = getAttribute(findTestObject("Object Repository/Page_Product1/select_ColorOption"), "value"): Attribute 'value' of object 'Object Repository/Page_Product1/select_ColorOption' is: 'pink'
+
+2022-12-07 03:37:33 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Product1/select_ColorOption' is: 'pink'
+
+2022-12-07 03:37:33 - [TEST_STEP][PASSED] - productSize = getAttribute(findTestObject("Object Repository/Page_Product1/select_SizeOption"), "value"): Attribute 'value' of object 'Object Repository/Page_Product1/select_SizeOption' is: '37'
+
+2022-12-07 03:37:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Product1/select_SizeOption' is: '37'
+
+2022-12-07 03:37:34 - [TEST_STEP][PASSED] - productQty = getAttribute(findTestObject("Object Repository/Page_Product1/input_Qty"), "value"): Attribute 'value' of object 'Object Repository/Page_Product1/input_Qty' is: '2'
+
+2022-12-07 03:37:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Page_Product1/input_Qty' is: '2'
+
+2022-12-07 03:37:34 - [TEST_STEP][PASSED] - cpltProductName = productName + " - " + productColor.toUpperCase(): null
+
+2022-12-07 03:37:34 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Product1/button_ViewCart"), DelayShort): Object 'Object Repository/Page_Product1/button_ViewCart' is clickable
+
+2022-12-07 03:37:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Product1/button_ViewCart' is clickable
+
+2022-12-07 03:37:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Product1/button_ViewCart"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Product1/button_ViewCart' is clicked on
+
+2022-12-07 03:37:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Product1/button_ViewCart' is clicked on
+
+2022-12-07 03:37:37 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://" + baseUrl + "/cart/", true, STOP_ON_FAILURE): Actual text 'https://shop.demoqa.com/cart/' and expected text 'https://shop.demoqa.com/cart/' are matched  using regular expression
+
+2022-12-07 03:37:37 - [MESSAGE][PASSED] - Current window's url is: 'https://shop.demoqa.com/cart/'
+
+2022-12-07 03:37:37 - [MESSAGE][PASSED] - Actual text 'https://shop.demoqa.com/cart/' and expected text 'https://shop.demoqa.com/cart/' are matched  using regular expression
+
+2022-12-07 03:37:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Cart/label_ProductNameColor"), cpltProductName, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_Cart/label_ProductNameColor' are matched.
+
+2022-12-07 03:37:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Cart/label_ProductNameColor' are matched.
+
+2022-12-07 03:37:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Cart/label_ProductPrice"), productPrice, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_Cart/label_ProductPrice' are matched.
+
+2022-12-07 03:37:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Cart/label_ProductPrice' are matched.
+
+2022-12-07 03:37:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Cart/label_ProductSize"), productSize, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Page_Cart/label_ProductSize' are matched.
+
+2022-12-07 03:37:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Cart/label_ProductSize' are matched.
+
+2022-12-07 03:37:38 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Object Repository/Page_Product1/input_Qty"), "value", productQty, DelayShort, STOP_ON_FAILURE): Object 'Object Repository/Page_Product1/input_Qty' has attribute 'value' with value '2'
+
+2022-12-07 03:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Product1/input_Qty' has attribute 'value' with value '2'
+
+2022-12-07 03:37:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Cart/button_Checkout"), DelayShort): Object 'Object Repository/Page_Cart/button_Checkout' is clickable
+
+2022-12-07 03:37:39 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Cart/button_Checkout' is clickable
+
+2022-12-07 03:37:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Cart/button_Checkout"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Cart/button_Checkout' is clicked on
+
+2022-12-07 03:37:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Cart/button_Checkout' is clicked on
+
+2022-12-07 03:37:41 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://" + baseUrl + "/checkout/", true, STOP_ON_FAILURE): Actual text 'https://shop.demoqa.com/checkout/' and expected text 'https://shop.demoqa.com/checkout/' are matched  using regular expression
+
+2022-12-07 03:37:41 - [MESSAGE][PASSED] - Current window's url is: 'https://shop.demoqa.com/checkout/'
+
+2022-12-07 03:37:41 - [MESSAGE][PASSED] - Actual text 'https://shop.demoqa.com/checkout/' and expected text 'https://shop.demoqa.com/checkout/' are matched  using regular expression
+
+2022-12-07 03:37:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_FirstName"), DelayShort): Object 'Object Repository/Page_Checkout/input_FirstName' is present
+
+2022-12-07 03:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_FirstName' is present
+
+2022-12-07 03:37:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_FirstName"), firstName, STOP_ON_FAILURE): Text 'FirstNameDzS' is set on object 'Object Repository/Page_Checkout/input_FirstName'
+
+2022-12-07 03:37:43 - [MESSAGE][PASSED] - Text 'FirstNameDzS' is set on object 'Object Repository/Page_Checkout/input_FirstName'
+
+2022-12-07 03:37:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_LastName"), DelayShort): Object 'Object Repository/Page_Checkout/input_LastName' is present
+
+2022-12-07 03:37:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_LastName' is present
+
+2022-12-07 03:37:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_LastName"), lastName, STOP_ON_FAILURE): Text 'LastNameNSZCd' is set on object 'Object Repository/Page_Checkout/input_LastName'
+
+2022-12-07 03:37:45 - [MESSAGE][PASSED] - Text 'LastNameNSZCd' is set on object 'Object Repository/Page_Checkout/input_LastName'
+
+2022-12-07 03:37:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Checkout/input_Agrement"), DelayShort): Object 'Object Repository/Page_Checkout/input_Agrement' is clickable
+
+2022-12-07 03:37:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_Agrement' is clickable
+
+2022-12-07 03:37:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout/input_Agrement"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Checkout/input_Agrement' is clicked on
+
+2022-12-07 03:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/input_Agrement' is clicked on
+
+2022-12-07 03:37:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_CompanyName"), DelayShort): Object 'Object Repository/Page_Checkout/input_CompanyName' is present
+
+2022-12-07 03:37:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_CompanyName' is present
+
+2022-12-07 03:37:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_CompanyName"), companyName, STOP_ON_FAILURE): Text '7JeKT' is set on object 'Object Repository/Page_Checkout/input_CompanyName'
+
+2022-12-07 03:37:47 - [MESSAGE][PASSED] - Text '7JeKT' is set on object 'Object Repository/Page_Checkout/input_CompanyName'
+
+2022-12-07 03:37:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout/select_Country"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Checkout/select_Country' is clicked on
+
+2022-12-07 03:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/select_Country' is clicked on
+
+2022-12-07 03:37:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_Country"), "Indonesia", STOP_ON_FAILURE): Text 'Indonesia' is set on object 'Object Repository/Page_Checkout/input_Country'
+
+2022-12-07 03:37:48 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/Page_Checkout/input_Country'
+
+2022-12-07 03:37:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Checkout/input_Country"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Checkout/input_Country'
+
+2022-12-07 03:37:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Checkout/input_Country'
+
+2022-12-07 03:37:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_Address1"), DelayShort): Object 'Object Repository/Page_Checkout/input_Address1' is present
+
+2022-12-07 03:37:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_Address1' is present
+
+2022-12-07 03:37:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_Address1"), address1, STOP_ON_FAILURE): Text 'RsitTJBgGDXbSZTIusdq' is set on object 'Object Repository/Page_Checkout/input_Address1'
+
+2022-12-07 03:37:51 - [MESSAGE][PASSED] - Text 'RsitTJBgGDXbSZTIusdq' is set on object 'Object Repository/Page_Checkout/input_Address1'
+
+2022-12-07 03:37:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_City"), DelayShort): Object 'Object Repository/Page_Checkout/input_City' is present
+
+2022-12-07 03:37:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_City' is present
+
+2022-12-07 03:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_City"), city, STOP_ON_FAILURE): Text 'grdrz' is set on object 'Object Repository/Page_Checkout/input_City'
+
+2022-12-07 03:37:53 - [MESSAGE][PASSED] - Text 'grdrz' is set on object 'Object Repository/Page_Checkout/input_City'
+
+2022-12-07 03:37:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout/select_State"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Checkout/select_State' is clicked on
+
+2022-12-07 03:37:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/select_State' is clicked on
+
+2022-12-07 03:37:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_State"), "Bali", STOP_ON_FAILURE): Text 'Bali' is set on object 'Object Repository/Page_Checkout/input_State'
+
+2022-12-07 03:37:54 - [MESSAGE][PASSED] - Text 'Bali' is set on object 'Object Repository/Page_Checkout/input_State'
+
+2022-12-07 03:37:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Checkout/input_State"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Checkout/input_State'
+
+2022-12-07 03:37:55 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Checkout/input_State'
+
+2022-12-07 03:37:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_PostCode"), DelayShort): Object 'Object Repository/Page_Checkout/input_PostCode' is present
+
+2022-12-07 03:37:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_PostCode' is present
+
+2022-12-07 03:37:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_PostCode"), postCode, STOP_ON_FAILURE): Text '95360' is set on object 'Object Repository/Page_Checkout/input_PostCode'
+
+2022-12-07 03:37:57 - [MESSAGE][PASSED] - Text '95360' is set on object 'Object Repository/Page_Checkout/input_PostCode'
+
+2022-12-07 03:37:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_Phone"), DelayShort): Object 'Object Repository/Page_Checkout/input_Phone' is present
+
+2022-12-07 03:37:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_Phone' is present
+
+2022-12-07 03:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_Phone"), phone, STOP_ON_FAILURE): Text '302894920204' is set on object 'Object Repository/Page_Checkout/input_Phone'
+
+2022-12-07 03:38:00 - [MESSAGE][PASSED] - Text '302894920204' is set on object 'Object Repository/Page_Checkout/input_Phone'
+
+2022-12-07 03:38:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Checkout/input_Email"), DelayShort): Object 'Object Repository/Page_Checkout/input_Email' is present
+
+2022-12-07 03:38:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/input_Email' is present
+
+2022-12-07 03:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Checkout/input_Email"), email, STOP_ON_FAILURE): Text 'FirstNameDzS@mailinator.com' is set on object 'Object Repository/Page_Checkout/input_Email'
+
+2022-12-07 03:38:01 - [MESSAGE][PASSED] - Text 'FirstNameDzS@mailinator.com' is set on object 'Object Repository/Page_Checkout/input_Email'
+
+2022-12-07 03:38:01 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/Page_Checkout/button_PlaceOrder"), DelayShort): Object 'Object Repository/Page_Checkout/button_PlaceOrder' is clickable
+
+2022-12-07 03:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Checkout/button_PlaceOrder' is clickable
+
+2022-12-07 03:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Checkout/button_PlaceOrder"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Checkout/button_PlaceOrder' is clicked on
+
+2022-12-07 03:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Checkout/button_PlaceOrder' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-07 03:36:58 - [TEST_SUITE][PASSED] - Order single product: Test Cases/Order Product (OPD)/OPD0001 - Success order single product]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
